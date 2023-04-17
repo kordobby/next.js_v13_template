@@ -31,6 +31,43 @@ export default function Home() {
       <div>
         <Link href="/2nd-generation">2세대 포켓몬</Link>
       </div>
+      <p>Dynamic segments</p>
+      <p>말줄임표를 대괄호 안에 추가해 subsequent segments로 확장</p>
+      <div>
+        <Link href="/dynamic-segments">"~/"</Link>
+      </div>
+      <div>
+        <Link href="/dynamic-segments/pokemon">"~/pokemon"</Link>
+      </div>
+      <div>
+        <Link href="/dynamic-segments/pokemon/1st">"~/pokemon/1st"</Link>
+      </div>
+      <div>
+        <Link href="/dynamic-segments/pokemon/1st/starting">
+          "~/pokemon/1st/starting"
+        </Link>
+      </div>
+      <p>Dynamic Optional Catch-all segments</p>
+      <p>
+        optional cat-all segment 사이에서의 차이점은 옵셔널일 경우에는
+        매개변수가 없는 경로로도 일치가 가능
+      </p>
+      <div>
+        <Link href="/dynamic-optional-segments">"~/"</Link>
+      </div>
+      <div>
+        <Link href="/dynamic-optional-segments/pokemon">"~/pokemon"</Link>
+      </div>
+      <div>
+        <Link href="/dynamic-optional-segments/pokemon/1st">
+          "~/pokemon/1st"
+        </Link>
+      </div>
+      <div>
+        <Link href="/dynamic-optional-segments/pokemon/1st/starting">
+          "~/pokemon/1st/starting"
+        </Link>
+      </div>
     </main>
   );
 }
