@@ -23,6 +23,14 @@ export default function Home() {
       <div>
         <Link href="/parallel">parallel page</Link>
       </div>
+      <p>Route grouping</p>
+      <p>이름이 있는 slot를 사용해 생성된다.</p>
+      <div>
+        <Link href="/1st-generation">1세대 포켓몬</Link>
+      </div>
+      <div>
+        <Link href="/2nd-generation">2세대 포켓몬</Link>
+      </div>
     </main>
   );
 }
