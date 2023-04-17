@@ -7,6 +7,13 @@ export default function Home() {
   return (
     <main>
       <h3>Page Home</h3>
+      <h4>Nested Routes</h4>
+      <div>
+        <Link href="/nested-routes">1 depth</Link>
+      </div>
+      <div>
+        <Link href="/nested-routes/folder">2 depth</Link>
+      </div>
       <h4>blog with dynamic routes</h4>
       <div>
         <Link href="/blog/1">blog/params:1</Link>
