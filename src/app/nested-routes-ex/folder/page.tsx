@@ -1,5 +1,5 @@
-import Link from "next/link";
-
+import Link from 'next/link';
+import Button from '@/components/Button';
 const Page = () => {
   return (
     <>
@@ -12,6 +12,7 @@ const Page = () => {
       <div>
         <Link href="/">Go Home</Link>
       </div>
+      <Button btnType="primary">Component Test</Button>
     </>
   );
 };
