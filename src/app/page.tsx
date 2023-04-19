@@ -10,32 +10,22 @@ export default function Home() {
   return (
     <main>
       <div className="card">
-        <h2>Nested Routes : 중첩 라우팅</h2>
+        <h2>Nested Routes</h2>
         <div style={{ marginTop: '10px' }}>
           <Link href="/nested-routes-ex">👉 Nested Routes 알아보기</Link>
         </div>
       </div>
       <div className="card">
         <h2>Route grouping</h2>
-        <p>폴더 계층 구조를 벗어나 경로 그룹을 생성 가능하게 하는 방법</p>
-        <div>
-          <Link href="/1st-generation">👉 1세대 포켓몬</Link>
-        </div>
-        <div>
-          <Link href="/2nd-generation">👉 2세대 포켓몬</Link>
+        <div style={{ marginTop: '10px' }}>
+          <Link href="/harry">👉 Route grouping 알아보기</Link>
         </div>
       </div>
       <div className="card">
-        <h3>Dynamic Segments</h3>
-        <p>동적 데이터에서 경로를 생성하는 경우</p>
-        <div>
-          <Link href="/dynamic-segment-ex/1">
-            👉 dynamic-segment-ex/params:1
-          </Link>
-        </div>
-        <div>
-          <Link href="/dynamic-segment-ex/2">
-            👉 dynamic-segment-ex/params:2
+        <h2>Dynamic Routing</h2>
+        <div style={{ marginTop: '10px' }}>
+          <Link href="/dynamic-segment-ex/red">
+            👉 Dynamic Routing 알아보기
           </Link>
         </div>
       </div>
