@@ -11,11 +11,8 @@ export default function Home() {
     <main>
       <div className="card">
         <h2>Nested Routes : 중첩 라우팅</h2>
-        <div>
-          <Link href="/nested-routes-ex">👉 1 depth</Link>
-        </div>
-        <div>
-          <Link href="/nested-routes-ex/folder">👉 2 depth</Link>
+        <div style={{ marginTop: '10px' }}>
+          <Link href="/nested-routes-ex">👉 Nested Routes 알아보기</Link>
         </div>
       </div>
       <div className="card">
