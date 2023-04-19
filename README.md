@@ -4,7 +4,7 @@
 
 - https://next-js-v13-template.vercel.app/
 
-### about template
+### 📓 about template
 
 Next.js v13 베타버전 공식문서를 공부하며 만들어본 템플릿입니다. 전반적인 초기 설정과 라우팅 구조를 잡아놨습니다.
 
