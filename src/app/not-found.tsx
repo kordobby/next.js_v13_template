@@ -1,5 +1,8 @@
 import Icon from '@/components/Icon';
-import Link from 'next/link';
+
+/**
+ * NOT FOUND PAGE
+ */
 
 const NotFound = () => {
   return (

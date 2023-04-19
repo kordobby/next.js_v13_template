@@ -27,6 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" className={notoSans.className}>
+      {/* FONT SETTING */}
       <head>
         {/* default meta tags that always added */}
         <meta charSet="utf-8" />

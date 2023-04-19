@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Next.js v13 template
 
-## Getting Started
+<hr/>
 
-First, run the development server:
+[👉 템플릿 미리보기]('https://next-js-v13-template.vercel.app/')
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### about template
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Next.js v13 베타버전 공식문서를 공부하며 만들어본 템플릿입니다. 전반적인 초기 설정과 라우팅 구조를 잡아놨습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Meta 태그를 커스텀 해서 사용할 수 있습니다.
+- 라우팅 구조와 관련한 내용들을 확인할 수 있습니다.
+- 간단한 기본 config 설정들이 되어있습니다.
+- 스타일과 관련한 것들은 사용하실 라이브러리에 따라 따로 설정이 필요합니다.
+- 코드 내에 몇가지 실험하면서 알아낸 팁들을 주석으로 써뒀습니다. 신기한 동물 사전을 보는 기분을 느낄 수 있기를..
+- 공식문서 번역은 "Docs.md" 파일을 참고하면 됩니다. (지속 업데이트 예정)
+- 코드와 프로젝트 배포된 것을 함께 보면서 이해하면 좋습니다.
