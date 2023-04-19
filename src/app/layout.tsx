@@ -1,5 +1,6 @@
 import './globals.css';
 import { metaConfig } from '@/../meta.config';
+import FloatingIcon from '@/components/FloatingIcon';
 import Icon from '@/components/Icon';
 import { notoSans } from '@/fonts';
 
@@ -36,14 +37,17 @@ export default function RootLayout({
       <body>
         <h1>Next.js V13 Template</h1>
         <div style={{ display: 'flex', marginTop: '20px' }}>
-          <Icon path="/" back>
+          <Icon path="/" iconType="back">
             🔙
           </Icon>
-          <Icon path="/">🏠</Icon>
+          <Icon iconType="primary" path="/">
+            🏠
+          </Icon>
         </div>
         {/* <h2>Root Layout</h2>
         <p>최상위 파일로 나머지를 모두 감쌀 것입니다.</p> */}
         {children}
+        <FloatingIcon />
       </body>
     </html>
   );

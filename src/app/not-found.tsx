@@ -1,12 +1,15 @@
-import Link from "next/link";
+import Icon from '@/components/Icon';
+import Link from 'next/link';
 
 const NotFound = () => {
   return (
-    <div>
+    <>
+      <p>PAGE NOT FOUND</p>
+      <Icon path="/" iconType="refresh">
+        ♻️
+      </Icon>
       <p>not found</p>
-      <Link href="/">Move Back</Link>
-      <p>not found</p>
-    </div>
+    </>
   );
 };
 

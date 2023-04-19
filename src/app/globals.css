@@ -51,6 +51,47 @@ a {
   cursor: pointer;
 }
 
+.floating {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.floating_icon {
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.684);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 25px rgba(147, 147, 147, 0.235);
+  margin: 20px 10px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .card_box {
   padding: 20px 10px;
+}
+
+.card_slot {
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 25px;
+  background-color: rgba(180, 255, 169, 0.684);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 25px rgba(147, 147, 147, 0.235);
+}
+
+.desc {
+  color: gray;
+}
+
+.desc_box {
+  text-align: right;
 }

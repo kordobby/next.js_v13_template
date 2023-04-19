@@ -1,5 +1,5 @@
 const Page = () => {
-  return <div>page</div>;
+  return <div className="card_slot">hogwarts page</div>;
 };
 
 export default Page;

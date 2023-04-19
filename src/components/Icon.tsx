@@ -2,25 +2,30 @@
 
 import { usePathname, useRouter } from 'next/navigation';
 import { FC } from 'react';
+
+type IconType = 'primary' | 'back' | 'refresh';
+
 type IconProps = {
   children: string;
   path: string;
-  back?: boolean;
+  iconType: IconType;
 };
 
-const Icon: FC<IconProps> = ({ children, path, back }) => {
+const Icon: FC<IconProps> = ({ children, path, iconType }) => {
   const route = useRouter();
   const pathName = usePathname();
-  console.log(pathName !== '/');
+
   const onMoveScreen = () => {
-    if (back) {
+    if (iconType === 'back') {
       route.back();
+    } else if (iconType === 'refresh') {
+      route.refresh();
     } else {
       route.push(path);
     }
   };
 
-  if (pathName === '/' && back) {
+  if (pathName === '/' && iconType === 'back') {
     return <></>;
   }
   return (

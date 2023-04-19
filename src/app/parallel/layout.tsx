@@ -1,9 +1,11 @@
+import Link from 'next/link';
+
 const PokemonNav = () => {
-  return <nav>pokemon tab</nav>;
+  return <nav></nav>;
 };
 
 const HogwartNav = () => {
-  return <nav>hogwart tab</nav>;
+  return <nav></nav>;
 };
 
 const Layout = ({
@@ -16,14 +18,14 @@ const Layout = ({
   hogwarts: React.ReactNode;
 }) => {
   return (
-    <div>
-      <h1>This is Parallel Page</h1>
+    <div className="card">
+      <h1>Parallel Routing</h1>
       {children}
-      <h2>Pokemon</h2>
+      <h2>🍓 Pokemon Slot</h2>
       <PokemonNav />
       {pokemon}
 
-      <h2>Hogwarts</h2>
+      <h2>🍋 Hogwarts Slot</h2>
       <HogwartNav />
       {hogwarts}
     </div>
