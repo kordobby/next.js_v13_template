@@ -2,7 +2,9 @@
 
 <hr/>
 
-[👉 템플릿 미리보기]('https://next-js-v13-template.vercel.app/')
+👉 템플릿 미리보기
+
+- https://next-js-v13-template.vercel.app/
 
 ### about template
 
