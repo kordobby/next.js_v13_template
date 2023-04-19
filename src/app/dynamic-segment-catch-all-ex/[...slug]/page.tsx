@@ -34,13 +34,7 @@ export const generateMetadata = async (
 const Page = ({ params, searchParams }: PageProps) => {
   const { slug } = params;
 
-  console.log('..');
   return (
-    // <>
-    //   <p>slug 가 없는건 불가능</p>
-    //   <p>{slug}</p>
-    //   <Link href="/">go home</Link>
-    // </>
     <div className="card">
       <h1>Dynamic Routing</h1>
       <p>dynamic route 를 여러개를 사용할 경우는 어떻게 작성할까?</p>

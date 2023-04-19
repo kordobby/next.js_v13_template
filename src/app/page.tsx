@@ -34,29 +34,16 @@ export default function Home() {
         <h3>Catch-all Segments</h3>
         <div style={{ marginTop: '10px' }}>
           <Link href="/dynamic-segment-catch-all-ex/isedol">
-            👉 Dynamic Segments - Catch-all Segments 알아보기
+            👉 Catch-all Segments 알아보기
           </Link>
         </div>
       </div>
       <div className="card">
-        <h3>Dynamic Segments - Optional Catch-all segments</h3>
-        <p>옵셔널일 경우에는 매개변수가 없는 경로로도 일치가 가능</p>
-        <div>
-          <Link href="/dynamic-segment-optional-catch-all-ex">👉 "~/"</Link>
-        </div>
-        <div>
-          <Link href="/dynamic-segment-optional-catch-all-ex/pokemon">
-            👉 "~/pokemon"
-          </Link>
-        </div>
-        <div>
-          <Link href="/dynamic-segment-optional-catch-all-ex/pokemon/1st">
-            👉 "~/pokemon/1st"
-          </Link>
-        </div>
-        <div>
-          <Link href="/dynamic-segment-optional-catch-all-ex/pokemon/1st/starting">
-            👉 "~/pokemon/1st/starting"
+        <h2>Dynamic Segments</h2>
+        <h3>Optional Catch-all segments</h3>
+        <div style={{ marginTop: '10px' }}>
+          <Link href="/optional-catch-all-ex/isedol">
+            👉 Optional Catch-all Segments 알아보기
           </Link>
         </div>
       </div>
