@@ -30,24 +30,11 @@ export default function Home() {
         </div>
       </div>
       <div className="card">
-        <h3>Dynamic Segments - Catch-all Segments</h3>
-        <p>말줄임표를 대괄호 안에 추가해 subsequent segments로 확장</p>
-        <div>
-          <Link href="/dynamic-segment-catch-all-ex">👉 "~/"</Link>
-        </div>
-        <div>
-          <Link href="/dynamic-segment-catch-all-ex/pokemon">
-            👉 "~/pokemon"
-          </Link>
-        </div>
-        <div>
-          <Link href="/dynamic-segment-catch-all-ex/pokemon/1st">
-            👉 "~/pokemon/1st"
-          </Link>
-        </div>
-        <div>
-          <Link href="/dynamic-segment-catch-all-ex/pokemon/1st/starting">
-            👉 "~/pokemon/1st/starting"
+        <h2>Dynamic Segments</h2>
+        <h3>Catch-all Segments</h3>
+        <div style={{ marginTop: '10px' }}>
+          <Link href="/dynamic-segment-catch-all-ex/isedol">
+            👉 Dynamic Segments - Catch-all Segments 알아보기
           </Link>
         </div>
       </div>
