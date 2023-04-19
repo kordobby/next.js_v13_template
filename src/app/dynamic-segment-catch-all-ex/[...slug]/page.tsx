@@ -7,28 +7,28 @@ type PageProps = {
 };
 
 /* ADD DYNAMIC META TAGS AT DYNAMIC ROUTES */
-export const generateMetadata = async (
-  { params, searchParams }: PageProps,
-  parent?: ResolvingMetadata,
-): Promise<Metadata> => {
-  // read route params
-  const { slug } = params;
+// export const generateMetadata = async (
+//   { params, searchParams }: PageProps,
+//   parent?: ResolvingMetadata,
+// ): Promise<Metadata> => {
+//   // read route params
+//   const { slug } = params;
 
-  // fetch data
-  /* EXAMPLE
-  const pokemon = await fetch(`https://.../${id}`).them((res) => res.json());
-   */
-  return {
-    title: slug,
-    openGraph: {
-      title: slug,
-    },
-    twitter: {
-      card: 'summary',
-      title: slug,
-    },
-  };
-};
+//   // fetch data
+//   /* EXAMPLE
+//   const pokemon = await fetch(`https://.../${id}`).them((res) => res.json());
+//    */
+//   return {
+//     title: slug,
+//     openGraph: {
+//       title: slug,
+//     },
+//     twitter: {
+//       card: 'summary',
+//       title: slug,
+//     },
+//   };
+// };
 //         <p>말줄임표를 대괄호 안에 추가해 subsequent segments로 확장</p>
 
 const Page = ({ params, searchParams }: PageProps) => {
